@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  author: Jeremie CUADRADO
+  role_name: molecule
+  description: Ansible role install molecule framework
+  license: GPLv3
+  company: Redbeard-Consulting
+  min_ansible_version: 2.9
+
+  platforms:
+    - name: Debian
+      versions:
+        - all
+
+  galaxy_tags:
+    - ansible
+    - molecule
+    - framework
+    - test
+
+  dependencies:
+    - src: redbeard28.pip3
